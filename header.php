@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" href="favicon.ico">
     <!-- <link rel="stylesheet" type="text/css" media="screen and ( min-width:769px )"  href="<?php echo get_template_directory_uri(); ?>/css/style_pc.css"> -->
-	<link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href= "<?php echo get_template_directory_uri(); ?>/css/style_sp.css">
+	<!-- <link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href= "<?php echo get_template_directory_uri(); ?>/css/style_sp.css"> -->
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <!-- drawer.css -->
