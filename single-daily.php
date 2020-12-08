@@ -9,21 +9,17 @@ Template Post Type: post, page, event
 get_header(); 
 the_post();
 ?>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
-
-<?php the_post_thumbnail();?>   
+<div class="main-content">  
+<div class="daily">
+<p><img class="daily__img" src="<?php the_field('img') ?>" alt=""></p>
 <h2>これは日報用phpです。</h2>
-
 <p><?php the_field('day') ?></p>
 <p><?php the_field('content') ?></p>
-<p><img src="<?php the_field('img') ?>" alt=""></p>
+</div>
+</div>
+
 <?php get_footer();?>
  
 

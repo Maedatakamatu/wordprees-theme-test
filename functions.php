@@ -15,7 +15,7 @@ function sakura_theme_link(){
     //  }else{
     //     wp_enqueue_style('pc-css',  get_template_directory_uri() . '/css/style_pc.css');
     //  }
-
+    wp_enqueue_style('common-css',  get_template_directory_uri() . '/css/style.css' , );
     wp_enqueue_style('sp-css',  get_template_directory_uri() . '/css/style_sp.css' , array(), '1', 'screen and ( max-width:768px )');
     wp_enqueue_style('pc-css',  get_template_directory_uri() . '/css/style_pc.css' ,array(), '1', 'screen and ( min-width:769px )');
     wp_enqueue_style('drawer-css',  'https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css');
